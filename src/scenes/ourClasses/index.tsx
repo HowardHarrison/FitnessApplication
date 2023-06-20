@@ -73,6 +73,8 @@ const ourClasses = ({setSelectedPage}: Props) => {
               facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
               enim mattis odio in risus nunc.   
             </p>
+        </div>
+        </motion.div>    
             <div className="mt-10 h-[353]px w-full overflow-x-auto overflow-y-hidden">
              <ul className="w-[2800px] whitespace-nowrap">
               {classes.map((item: ClassType, index) => (
@@ -85,9 +87,6 @@ const ourClasses = ({setSelectedPage}: Props) => {
               ))}
              </ul>
             </div>
-        </div>
-
-      </motion.div>
      </motion.div>
     </section>
   )
